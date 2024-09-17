@@ -1,0 +1,111 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff; /* Cambiado a blanco */
+    color: #1a1a1a;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.logo img {
+    height: 50px; /* Ajusta el tamaño del logo */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00aaff;
+}
+
+main {
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+main h2 span {
+    color: #D0D7E8; /* Cambiado a RGB: 16425B */
+}
+main p{
+	margin-bottom: 20px;
+  	font-size: 20;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #D0D7E8; /* Cambiado a RGB: D0D7E8 */
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.portfolio-item h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.github-icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+}
